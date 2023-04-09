@@ -5,9 +5,9 @@ import { ShoppingCartIcon } from '@heroicons/react/24/solid'
 
 const Header = () => {
     return (
-        <nav className='container mx-auto flex items-center justify-between py-4 mb-6 px-2'>
+        <nav className='md:px-48 mx-auto flex items-center justify-between py-4 mb-6 sticky top-0 z-50 backdrop-blur-lg'>
             <div>
-                <Link className='flex items-center gap-2' to='/'><img className='w-10 rounded-full' src="smarts.png" alt="" /><span className='text-2xl text-purple-800 font-bold '>Hero GadGet</span></Link>
+                <Link className='flex items-center gap-2' to='/'><img className='w-10 rounded-xl' src="smarts.png" alt="" /><span className='text-2xl text-purple-800 font-bold '>Hero GadGet</span></Link>
             </div>
             <div className='md:flex items-center gap-8 text-lg font-semibold'>
                 <ActiveLink to='/'>Home</ActiveLink>
